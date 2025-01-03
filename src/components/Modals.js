@@ -37,8 +37,9 @@ const Modals = () => {
         e={openModal9}
         imgTitle="Sistema Atiendo"
         imgDesc="Plataforma destinada a la gestion de Tiendas Virtuales, creada con Angular y C# Framework 4.8 y MySQL."
-        tags={["Angular",
+        tags={[
           "C#",
+          ".NET",
           "Framework 4.8",
           "MySQL",
           "Angular",
