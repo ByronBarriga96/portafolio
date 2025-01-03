@@ -75,8 +75,8 @@
   color: #000;
   padding: 10px;
   width: 270px;
-  text-align: center;
-  font-size: small;
+  text-align: justify;
+  font-size: 1.4rem;
   line-height: 1.5;
   font-weight: 500;
 }
@@ -218,7 +218,7 @@
   /* Espaciado interno */
   border-radius: 50px;
   /* Bordes completamente redondeados */
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   /* Tamaño de fuente */
   font-weight: 500;
   /* Grosor de fuente */

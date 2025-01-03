@@ -55,7 +55,7 @@ const Modals = () => {
         image={Modal08}
         e={openModal8}
         imgTitle="Farfalla System"
-        imgDesc="Plataforma destinada a la administracion de Inventarios, Compras y Ventas de Joyas, creada con Laravel 8 y MySQL."
+        imgDesc="Plataforma Web para la administracion de Inventarios, Compras y Ventas de Joyas, creada con Laravel 8 y MySQL."
         tags={["PHP",
           "Laravel 8",
           "Symfony",
@@ -71,7 +71,7 @@ const Modals = () => {
       <ModalElement
         image={Modal11}
         e={openModal11}
-        imgTitle="Publicacion Cientifica"
+        imgTitle="UNACH - S.P.C."
         imgDesc="Sistema Web creado para la gestion de Articulos Cientificos, creado con .Net Framework 4.5 y SQL Server."
         tags={["C#",
           ".NET",

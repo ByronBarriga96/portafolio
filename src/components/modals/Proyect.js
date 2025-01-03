@@ -20,11 +20,11 @@ const Proyect = ({
           <img src={srcImge} alt="proyect" title="Proyect" className="proyect-image" width="260px" />
         </p>
         <p style={{ color: "black" }}>
-          <span >Descripción: </span>
+          <strong >Descripción: </strong>
           <br />{proyectDesc} <br />
-          <span >Modulos: </span>
+          <strong>Modulos: </strong>
           <br />{proyectModul} <br />
-          <span >Tecnologias: </span>
+          <strong >Tecnologias: </strong>
           <br /> {tecno}
         </p>
       </div>

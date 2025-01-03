@@ -4,7 +4,7 @@ const ModalElement = ({ image, e, imgTitle, imgDesc, tags }) => {
   return (
     <div className="modal_element">
       <div className="col folio-item fondo-modal">
-        <h6>{imgTitle}</h6>
+        <h6 style={{fontSize:'2rem'}}>{imgTitle}</h6>
         <p className="modal-description">{imgDesc}</p>
         <div className="tags-container">
           {tags && tags.map((element, index) => (

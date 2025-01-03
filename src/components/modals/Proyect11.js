@@ -8,7 +8,7 @@ const Proyect11 = () => {
     <Proyect
       srcImg={image}
       srcImge={imagen}
-      proyectTile="UNACH - Sistema Web Articulos Cientificos"
+      proyectTile="UNACH - Sistema de Publicaciones Cientificas"
       proyectDesc="Sistema de Gestion de Publicaciones Cientificas"
       proyectModul="Seguridad, Gestion de Articulas, Administracion, Reporteria, Diseño."
       tecno="C#, .Net, Framework 4.5, SQL Server, JavaScript, MVC, Postman, Git, Azure"
