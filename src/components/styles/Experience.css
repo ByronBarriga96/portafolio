@@ -1,0 +1,158 @@
+/* Variables para colores */
+:root {
+    --primary-color: #1e88e5;
+    --secondary-color: #333;
+    --background-color: #000;
+    --white-color: #fff;
+    --font-family: 'Arial', sans-serif;
+}
+
+/* Contenedor de la experiencia */
+.experience-container {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 3rem;
+    background-color: var(--background-color);
+    color: var(--white-color);
+    background-image: url("../../assets/image/stars.svg"), url("../../assets/image/stars.svg");
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 3rem;
+    /* Añadido espacio en la parte inferior */
+}
+
+/* Estilo para el encabezado */
+.experience-header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Estilo del spinner */
+.spinner {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid var(--primary-color);
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    animation: spin 2s linear infinite;
+}
+
+/* Animación del spinner */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Estilo de la fecha de la línea de tiempo */
+.timeline-date {
+    font-size: 5rem;
+    font-weight: bold;
+    color: var(--white-color);
+    margin-bottom: 1.5rem;
+}
+
+/* Título de la experiencia */
+.experience-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #00bcd4;
+}
+
+/* Subtítulo de la experiencia */
+.experience-subtitle {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--white-color);
+}
+
+/* Tipo de trabajo */
+.work-type {
+    font-size: 1.5rem;
+    color: var(--white-color);
+    margin-bottom: 1.5rem;
+}
+
+/* Estilo para el contenido de la línea de tiempo */
+.vertical-timeline-element-content {
+    margin-top: 0;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    /* Añadir espacio entre contenedores */
+}
+
+/* Estilo para los elementos de la línea de tiempo */
+.vertical-timeline-element-content>h3,
+.vertical-timeline-element-content>h4,
+.vertical-timeline-element-content>p {
+    margin: 0;
+}
+
+/* Estilo de la fecha en el elemento de la línea de tiempo */
+.vertical-timeline-element-date {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--white-color);
+}
+
+/* Eliminar bordes de los elementos de la línea de tiempo */
+.vertical-timeline-element {
+    border: none;
+}
+
+/* Estilo para la flecha del contenido */
+.vertical-timeline-element-arrow {
+    border-right: 7px solid var(--secondary-color);
+}
+
+/* Estilo para las descripciones de trabajo */
+.work-description {
+    color: var(--white-color);
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+/* Estilo para la lista de descripciones de trabajo */
+ul {
+    padding-left: 2rem;
+    list-style-type: disc;
+    margin: 0;
+}
+
+/* Estilo para los elementos de la lista */
+ul li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Ajustes para la visualización en pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    .vertical-timeline-element-content {
+        padding: 1.5rem;
+        /* Reducir espacio dentro de los contenedores */
+    }
+
+    .vertical-timeline-element {
+        width: 80%;
+        margin: 1.5rem auto;
+        /* Añadir más espacio entre los contenedores */
+    }
+}
+
+/* Ajustes para pantallas móviles */
+@media screen and (max-width: 480px) {
+    .vertical-timeline-element-content {
+        padding: 1.5rem;
+    }
+
+    .vertical-timeline-element {
+        width: 85%;
+        margin: 1rem auto;
+    }
+}

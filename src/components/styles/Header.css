@@ -1,0 +1,137 @@
+:root {
+  --active-nav-blue: #11abb0;
+  --background-header: #262626;
+}
+
+.layout {
+  position: fixed;
+  width: 100%;
+  height: auto;
+  background-color: var(--background-header);
+  top: 0;
+  z-index: 100;
+}
+
+.s-header__nav-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 101;
+}
+
+.s-header__nav {
+  display: flex;
+}
+
+.s-header__nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.s-header__nav li {
+  margin-right: 20px;
+}
+
+.s-header__nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.current {
+  color: var(--active-nav-blue) !important;
+  font-weight: 600;
+}
+
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 21px;
+  width: 30px;
+}
+
+.bar {
+  background-color: white;
+  height: 3px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+
+  /* Para móviles, el menú será un menú lateral */
+  .s-header__nav {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    /* El menú comienza fuera de la pantalla */
+    width: 250px;
+    height: 100vh;
+    background-color: var(--background-header);
+    flex-direction: column;
+    padding-top: 60px;
+    transition: left 0.3s ease;
+    z-index: 100;
+  }
+
+  .s-header__nav.open {
+    left: 0;
+    /* Cuando se abre, el menú se mueve al lado izquierdo */
+  }
+
+  .s-header__nav ul {
+    flex-direction: column;
+  }
+
+  .s-header__nav li {
+    margin: 10px 0;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  /* Estilos para el botón del menú hamburguesa */
+  .menu-toggle {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+}
+
+/* Para pantallas de escritorio (más de 768px), centramos el menú */
+@media (min-width: 769px) {
+  .s-header__nav-wrap {
+    justify-content: center;
+    /* Centra el contenido */
+  }
+
+  .s-header__nav {
+    position: static;
+    /* El menú se posiciona de forma estática en el flujo normal del documento */
+    width: auto;
+    /* El menú no tiene un ancho fijo */
+    flex-direction: row;
+    /* El menú es horizontal */
+    padding-top: 0;
+    /* Eliminamos el relleno superior */
+  }
+
+  .s-header__nav ul {
+    flex-direction: row;
+    /* Hacemos que los elementos del menú estén en una fila */
+  }
+
+  .s-header__nav li {
+    margin-right: 20px;
+  }
+
+  /* Opcional: Estilo para mejorar la visibilidad en pantallas grandes */
+  .s-header__nav a {
+    font-size: 16px;
+  }
+}
