@@ -1,20 +1,17 @@
 import React from "react";
-import image from "../../assets/image/screenshot/productapp-baner.png";
+import imagen from "../../assets/image/projects/blogCore-sistema.png";
 import Proyect from "./Proyect";
-const URL = "https://dbriceno10.github.io/aplicacion-de-productos-2/";
-const urlRepo = "https://github.com/dbriceno10/aplicacion-de-productos-2";
+import image from "../../assets/image/projects/blogCore-sistem.png";
 
 const Proyect03 = () => {
   return (
     <Proyect
-      srcImg={image}
-      proyectTile="E-commerce Product App"
-      // proyectDesc="A simple E-commerce type product app, with quick bootstrap styles,
-      //       fully responsive."
-      proyectDesc="Una simple aplicación estilo E-Commerce, usando bootstrap para dar unos estilos rápidos y responsivos."
-      tecn="Tecnologías utilizadas: HTML, CSS, JavaScript, Git/Github, Bootstrap."
-      urlPage={URL}
-      urlRepo={urlRepo}
+      srcImg={imagen}
+      srcImge={image}
+      proyectTile="Blog Core"
+      proyectDesc="Blog de Gestion de contenido de articulos variados, separado por categorias y articulos."
+      proyectModul="Seguridad, Gestion de Contenido, Diseño y Construccion de Base de Datos."
+      tecno="C#, .NET Core 8, MVC, SQL Server, HTML, CSS, Bootswatch, Identity, Repository Pattern, Postman, Github"
     />
   );
 };

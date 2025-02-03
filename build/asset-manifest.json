@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.b25c54f2.chunk.css",
-    "main.js": "/portafolio/static/js/main.2bb121db.chunk.js",
-    "main.js.map": "/portafolio/static/js/main.2bb121db.chunk.js.map",
+    "main.js": "/portafolio/static/js/main.297f4757.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.297f4757.chunk.js.map",
     "runtime-main.js": "/portafolio/static/js/runtime-main.28aff228.js",
     "runtime-main.js.map": "/portafolio/static/js/runtime-main.28aff228.js.map",
     "static/css/2.e5d641b3.chunk.css": "/portafolio/static/css/2.e5d641b3.chunk.css",
@@ -24,8 +24,10 @@
     "static/media/articulos-sistema.4062aa5e.png": "/portafolio/static/media/articulos-sistema.4062aa5e.png",
     "static/media/atiendo-sistem.a8f0937e.png": "/portafolio/static/media/atiendo-sistem.a8f0937e.png",
     "static/media/atiendo-sistema.c3db85d7.png": "/portafolio/static/media/atiendo-sistema.c3db85d7.png",
-    "static/media/atiendo.752e4e3b.png": "/portafolio/static/media/atiendo.752e4e3b.png",
     "static/media/azure.e352e100.png": "/portafolio/static/media/azure.e352e100.png",
+    "static/media/blogCore-sistem.b4cb7005.png": "/portafolio/static/media/blogCore-sistem.b4cb7005.png",
+    "static/media/blogCore-sistema.6cd6b007.png": "/portafolio/static/media/blogCore-sistema.6cd6b007.png",
+    "static/media/blogCore.ac37a6b7.png": "/portafolio/static/media/blogCore.ac37a6b7.png",
     "static/media/bootstrap-5-1.98585727.svg": "/portafolio/static/media/bootstrap-5-1.98585727.svg",
     "static/media/c.6e279df7.png": "/portafolio/static/media/c.6e279df7.png",
     "static/media/css-logo.efd17a83.png": "/portafolio/static/media/css-logo.efd17a83.png",
@@ -89,6 +91,6 @@
     "static/css/2.e5d641b3.chunk.css",
     "static/js/2.25b52101.chunk.js",
     "static/css/main.b25c54f2.chunk.css",
-    "static/js/main.2bb121db.chunk.js"
+    "static/js/main.297f4757.chunk.js"
   ]
 }

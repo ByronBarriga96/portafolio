@@ -7,6 +7,8 @@ import Modal01 from "../assets/image/projects/allmight.png";
 import Proyect01 from "./modals/Proyect01";
 import Modal02 from "../assets/image/projects/pets.png";
 import Proyect02 from "./modals/Proyect02";
+import Modal03 from "../assets/image/projects/blogCore.png";
+import Proyect03 from "./modals/Proyect03";
 import Modal05 from "../assets/image/projects/perro.png";
 import Proyect05 from "./modals/Proyect05";
 import Modal06 from "../assets/image/projects/hospice.png";
@@ -23,6 +25,8 @@ import Proyect12 from "./modals/Proyect12";
 const Modals = () => {
   const [isOpenModal1, openModal1, closeModal1] = useModal(false);
   const [isOpenModal2, openModal2, closeModal2] = useModal(false);
+  const [isOpenModal3, openModal3, closeModal3] = useModal(false);
+
   const [isOpenModal5, openModal5, closeModal5] = useModal(false);
   const [isOpenModal6, openModal6, closeModal6] = useModal(false);
   const [isOpenModal8, openModal8, closeModal8] = useModal(false);
@@ -32,6 +36,25 @@ const Modals = () => {
 
   return (
     <div className="row collapse block-large-1-4 block-medium-1-3 block-tab-1-2 block-500-stack folio-list">
+      <ModalElement
+        image={Modal03}
+        e={openModal3}
+        imgTitle="Blog Core"
+        imgDesc="Blog de Gestion de contenido de articulos variados, creada C# .Net Core 8 y MSSQL Server"
+        tags={[
+          "C#",
+          ".NET Core 8",
+          "SQL Server",
+          "MVC",
+          "Repository",
+          "Identity",
+          "JavaScript",
+          "GitHub",
+          "Postman"]}
+      />
+      <Modal isOpen={isOpenModal3} closeModal={closeModal3}>
+        <Proyect03 />
+      </Modal>
       <ModalElement
         image={Modal09}
         e={openModal9}
@@ -51,7 +74,6 @@ const Modals = () => {
       <Modal isOpen={isOpenModal9} closeModal={closeModal9}>
         <Proyect09 />
       </Modal>
-
       <ModalElement
         image={Modal08}
         e={openModal8}

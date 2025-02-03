@@ -8,8 +8,8 @@ const EndPointsExp = {
                 subtitle: "Independiente",
                 workType: "Tiempo Completo",
                 workDescription: [
-                    "Desarrollo Backend con .Net C# Core (6 - 7 - 8)",
-                    "Desarrollo FrontEnd con Angular 18 y React 16-18",
+                    "Desarrollo Backend con .Net C# Core (3.1-8.0) / Laravel (7-10)",
+                    "Desarrollo FrontEnd con Angular (14-18) y React (16-18)",
                     "Desarrollo Movil con Ionic, Flutter y React Native",
                     "Desarrollo de Microservicios",
                     "Desarrollo de tableros en Power BI."
@@ -22,7 +22,7 @@ const EndPointsExp = {
                 workType: "Tiempo Completo",
                 workDescription: [
                     "Desarrollo BackEnd con C# .Net Framework 4.8",
-                    "Desarrollo FrontEnd con Angular 16",
+                    "Desarrollo FrontEnd con Angular 14",
                     "Desarrollo Movil con Flutter",
                     "Administrador de Base de Datos (MySQL-SQLServer)",
                     "Construcción de Módulo de Facturación Electrónica"
