@@ -8,7 +8,7 @@ const EndPointsExp = {
                 subtitle: "Independiente",
                 workType: "Tiempo Completo",
                 workDescription: [
-                    "Desarrollo Backend con .Net C# Core (3.1-8.0) / Laravel (7-10)",
+                    "Desarrollo Backend con .Net C# Core (3.1-8.0) /  PHP Laravel (7-10)",
                     "Desarrollo FrontEnd con Angular (14-18) y React (16-18)",
                     "Desarrollo Movil con Ionic, Flutter y React Native",
                     "Desarrollo de Microservicios",
