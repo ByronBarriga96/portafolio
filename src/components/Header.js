@@ -37,27 +37,48 @@ const Header = () => {
         <nav className={`s-header__nav ${menuOpen ? "open" : ""}`}>
           <ul>
             <li id="home">
-              <NavLink activeClassName="current" to="/" exact onClick={() => setMenuOpen(false)}>
+              <NavLink
+                activeClassName="current"
+                to="/"
+                exact
+                onClick={() => setMenuOpen(false)}
+              >
                 Inicio
               </NavLink>
             </li>
             <li id="portfolio">
-              <NavLink activeClassName="current" to="/portfolio" onClick={() => setMenuOpen(false)}>
+              <NavLink
+                activeClassName="current"
+                to="/portfolio"
+                onClick={() => setMenuOpen(false)}
+              >
                 Proyectos
               </NavLink>
             </li>
             <li id="experience">
-              <NavLink activeClassName="current" to="/experience" onClick={() => setMenuOpen(false)}>
-                Experiencia / Educación
+              <NavLink
+                activeClassName="current"
+                to="/experience"
+                onClick={() => setMenuOpen(false)}
+              >
+                Formacion
               </NavLink>
             </li>
             <li id="about">
-              <NavLink activeClassName="current" to="/about" onClick={() => setMenuOpen(false)}>
+              <NavLink
+                activeClassName="current"
+                to="/about"
+                onClick={() => setMenuOpen(false)}
+              >
                 Acerca de mí
               </NavLink>
             </li>
             <li id="contact">
-              <NavLink activeClassName="current" to="/contact" onClick={() => setMenuOpen(false)}>
+              <NavLink
+                activeClassName="current"
+                to="/contact"
+                onClick={() => setMenuOpen(false)}
+              >
                 Contacto
               </NavLink>
             </li>

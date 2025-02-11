@@ -3,7 +3,7 @@ import Skill from "./Skill";
 import psqlStiker from "../assets/image/postgresql-icon.svg";
 import typescriptStiker from "../assets/image/typescript-programming-language.svg";
 import javascriptStiker from "../assets/image/javascript-logo-svg-vector.svg";
-import csticker from "../assets/image/skills/c.png"
+import csticker from "../assets/image/skills/c.png";
 import phpSticker from "../assets/image/skills/php.png";
 import javaSticker from "../assets/image/skills/java.png";
 import mysqlSticker from "../assets/image/skills/mysql.png";
@@ -42,8 +42,10 @@ import nodeStiker from "../assets/image/nodejs-icon-logo-svg-vector.svg";
 import mongodbtStiker from "../assets/image/mongo.png";
 import bootstrapStiker from "../assets/image/bootstrap-5-1.svg";
 import vueStiker from "../assets/image/vue-js-1.svg";
-import nestStiker from '../assets/image/nestjs.svg'
-
+import nestStiker from "../assets/image/nestjs.svg";
+import kamateraSticker from "../assets/image/skills/kamateracloud.png";
+import cypressSticker from "../assets/image/skills/cypress.png";
+import apexSticker from "../assets/image/skills/apexchart.png";
 const Skills = () => {
   return (
     <section className="s-resume target-section">
@@ -52,25 +54,13 @@ const Skills = () => {
           <h3 id="skills" className="section-header">
             Habilidades
           </h3>
-          <h2 className="section-header-allcaps">
-            Lenguajes / Base de Datos
-          </h2>
+          <h2 className="section-header-allcaps">Lenguajes / Base de Datos</h2>
         </div>
         <div className="column large-10 tab-12">
           <div className="resume-block">
             <ul className="skill-bars-fat skill-grid">
-              <Skill
-                skill="C#"
-                src={csticker}
-                title="C#"
-                alt="C#-logo"
-              />
-              <Skill
-                skill="PHP"
-                src={phpSticker}
-                title="PHP"
-                alt="php-logo"
-              />
+              <Skill skill="C#" src={csticker} title="C#" alt="C#-logo" />
+              <Skill skill="PHP" src={phpSticker} title="PHP" alt="php-logo" />
               <Skill
                 skill="Java"
                 src={javaSticker}
@@ -83,12 +73,7 @@ const Skills = () => {
                 title="HTML"
                 alt="html-logo"
               />
-              <Skill
-                skill="CSS"
-                src={cssStiker}
-                title="CSS"
-                alt="css-logo"
-              />
+              <Skill skill="CSS" src={cssStiker} title="CSS" alt="css-logo" />
               <Skill
                 skill="JavaScript"
                 src={javascriptStiker}
@@ -129,9 +114,7 @@ const Skills = () => {
           </div>
         </div>
         <div className="column  tab-12">
-          <h2 className="section-header-allcaps">
-            Frameworks / Tecnologías
-          </h2>
+          <h2 className="section-header-allcaps">Frameworks / Tecnologías</h2>
         </div>
         <div className="column large-10 tab-12">
           <div className="resume-block">
@@ -218,14 +201,11 @@ const Skills = () => {
           </div>
         </div>
         <div className="column  tab-12">
-          <h2 className="section-header-allcaps">
-            Herramientas
-          </h2>
+          <h2 className="section-header-allcaps">Herramientas</h2>
         </div>
         <div className="column large-10 tab-12">
           <div className="resume-block">
             <ul className="skill-bars-fat skill-grid">
-
               <Skill
                 skill="VStudio"
                 src={vstudioSticker}
@@ -292,12 +272,7 @@ const Skills = () => {
                 title="GitHub"
                 alt="github-logo"
               />
-              <Skill
-                skill="Git"
-                src={gitStiker}
-                title="Git"
-                alt="git-logo"
-              />
+              <Skill skill="Git" src={gitStiker} title="Git" alt="git-logo" />
               <Skill
                 skill="bootstrap"
                 src={bootstrapStiker}
@@ -311,22 +286,23 @@ const Skills = () => {
                 alt="azure-logo"
               />
               <Skill
-                skill="G.Cloud"
-                src={googlecSticker}
-                title="Google Cloud"
-                alt="google-cloud-logo"
+                skill="Kamatera"
+                src={kamateraSticker}
+                title="Kamatera"
+                alt="kamatera-cloud-logo"
+              />
+
+              <Skill
+                skill="Cypress"
+                src={cypressSticker}
+                title="Cypress"
+                alt="cypres-logo"
               />
               <Skill
-                skill="Oficce"
-                src={officeSticker}
-                title="Oficce"
-                alt="office-logo"
-              />
-              <Skill
-                skill="Ocean"
-                src={digitalocean}
-                title="Ocean"
-                alt="digitalocean-logo"
+                skill="ApexChart"
+                src={apexSticker}
+                title="Apexchart"
+                alt="apexchart-logo"
               />
               <Skill
                 skill="Xaamp"
@@ -339,6 +315,12 @@ const Skills = () => {
                 src={wampSticker}
                 title="Wamp"
                 alt="Wamp-logo"
+              />
+              <Skill
+                skill="Oficce"
+                src={officeSticker}
+                title="Oficce"
+                alt="office-logo"
               />
             </ul>
           </div>
